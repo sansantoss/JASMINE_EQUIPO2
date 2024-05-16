@@ -13,6 +13,7 @@ describe('${User.name} Class', () => {
 			model.sayMyName();
             //assert
             expect(window.alert).toHaveBeenCalled();
+            expect(window.alert).toHaveBeenCalled('HECTOR CEPILLO');
         });
 	});
 });
