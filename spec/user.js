@@ -9,8 +9,11 @@ class User {
 	}
     get fullName() {
         if(this.middleName.length > 0){
-            return `${this.firstName} ${this.middleName} ${this.lastName}`;
+            return `${this.firstName} ${this.middleName[0]} ${this.lastName}`;
         }
         return `${this.firstName} ${this.lastName}`;
+    }
+    sayMyName(){
+        window.alert(this.fullName);
     }
 	}
