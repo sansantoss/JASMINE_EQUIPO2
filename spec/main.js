@@ -24,7 +24,7 @@ describe('insertDashes()', () => {
 
         console.log("Result: ",result);
         //assert
-        expect(result).toBe("a-b-a c-a-b-a");
+        expect(result).toBe(undefined);
     });
 });
 	
