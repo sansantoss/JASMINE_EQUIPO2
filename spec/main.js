@@ -1,31 +1,20 @@
 // Majority
-/*
-describe('Test Example', () => {
-	it('returns true', () => {
-	expect(false).toBe(true);
+
+class User {
+	firstName;
+	lastName;
+	middleName;
 	
+	constructor(data = {}){
+	this.firstName = data.firstName || '';
+	this.lastName = data.lastName || '';
+	this.middleName = data.middleName;
+	}
+	}
+	/**
+	* Test Suite
+	*/
+	describe('User', () => {
 	});
-	
-	});
-*/
-function insertDashes(str){
-	//write code here
-}
-
-
-describe('insertDashes()', () => {
-	it('insert dashes in between', () => {
-		//arrange
-		const value = "aba caba";
-		
-		//act
-		const result = insertDashes(value);
-		//log
-
-        console.log("Result: ",result);
-        //assert
-        expect(result).toBe(undefined);
-    });
-});
 	
 	
