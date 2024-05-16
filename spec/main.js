@@ -3,7 +3,7 @@ class User {
 	lastName;
 	middleName;
 	constructor(data = {}){
-	this.firstName = data.firstName || '';
+	this.firstName = data.firstName;
 	this.lastName = data.lastName || '';
 	this.middleName = data.middleName;
 	}
