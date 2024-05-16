@@ -1,6 +1,6 @@
 // Majority
 
-class User {
+class Admin {
 	firstName;
 	lastName;
 	middleName;
