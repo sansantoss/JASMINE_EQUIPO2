@@ -15,12 +15,7 @@ describe('${User.name} Class', () => {
 		it('Gets user data by id', async () => {
 			//arrange
 			mockUserService.lastId = null;
-			mockUserService.user = new User({
-				firstName: 'Pepe',
-                middleName: 'Carillo',
-                lastName: 'Chong',
-                id: 2
-			})
+			
 			//act
 			const result = await model.getMyFullUserData();
 
