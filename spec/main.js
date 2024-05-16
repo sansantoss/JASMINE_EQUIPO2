@@ -9,12 +9,13 @@ class User {
 	this.firstName = data.firstName || '';
 	this.lastName = data.lastName || '';
 	this.middleName = data.middleName;
+
 	}
-	}
+}
 	/**
 	* Test Suite
 	*/
-	describe('User', () => {
-	});
+describe('User', () => {
+});
 	
 	
